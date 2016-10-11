@@ -1,5 +1,3 @@
-# Comandos básicos
-
 # Instalar o Git
 
 	https://git-scm.com/downloads
