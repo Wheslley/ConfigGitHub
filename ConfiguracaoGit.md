@@ -2,6 +2,11 @@
 
 	https://git-scm.com/downloads
 
+# Configurar email e username
+
+	git config --global user.email "seu_email@dominio.com"
+	git config --global user.name "seu_username"
+
 # Configurar Git e Git Hub
 
  $ Gerar uma chave ssh
