@@ -17,7 +17,7 @@
     
 # Enviando alterações
 
-    git push origin master
+    git push origin master --force
     
 # Atualizar seu diretório
 
