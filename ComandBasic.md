@@ -51,3 +51,17 @@
 # Inclusões interativas
 
     git add -i
+
+# Atualizar o fork com o master
+
+    git remote add upstream https://github.com/usuario/projeto.git
+
+    git fetch upstream
+
+    git checkout master
+
+    git rebase upstream/master
+
+    git merge upstream/master
+
+    git push -f origin master
