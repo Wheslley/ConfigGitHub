@@ -34,6 +34,10 @@
 # Visualisar logs
 
     git log
+
+# Visualisar logs gráficos
+
+    gitk
     
 # Sobrescrever alterações locais
 
