@@ -11,7 +11,7 @@
 
  $ Gerar uma chave ssh
  
- 	ssh -keygen -t rsa -b 4096 -C "seu_email@dominio.com"
+ 	ssh-keygen -t rsa -b 4096 -C "seu_email@dominio.com"
 	OBS: Não é necessário colocar senha. Lembrando que será solicitado a senha sempre que for submeter algum commit para o repositório.
 	
  $ Ativar o ssh-agent e associar uma chave shh a ele
