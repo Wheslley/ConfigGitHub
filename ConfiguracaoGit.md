@@ -31,3 +31,9 @@
 	ssh -T git@github.com
 	yes
 	OBS: A mensagem deverá ser um "Hi seu_user! ... " (Caso não seja, repita os procedimentos acima).
+	
+ $ Excluir e Setar Keys Git
+ 
+ 	ssh-add -D
+	ssh-add yourKey
+	ssh -T git@github.com
