@@ -14,16 +14,16 @@
  	ssh-keygen -t rsa -b 4096 -C "seu_email@dominio.com"
 	OBS: Não é necessário colocar senha. Lembrando que será solicitado a senha sempre que for submeter algum commit para o repositório.
 	
- $ Ativar o ssh-agent e associar uma chave shh a ele
+ $ Ativar o ssh-agent e associar uma chave ssh a ele
  
 	exec ssh-agent bash
-	ssh-add ~/.shh/id_rsa
+	ssh-add ~/.ssh/id_rsa
 	
  $ Copiar a chave gerada e associar ao Git Hub
  
-	clip < ~/.shh/id_rsa.pub
+	clip < ~/.ssh/id_rsa.pub
 	Entrar no site Git Hub > Settings > SSH and GPG keys > New SSH key
-		Title: Colocar qualquer nome para sua chave shh
+		Title: Colocar qualquer nome para sua chave ssh
 	 Key: Apenas dê um ctrl+v
 	 
  $ Testar Git e Git Hub
